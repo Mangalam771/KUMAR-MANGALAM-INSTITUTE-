@@ -2,8 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>कुमार मंगलम संस्थान
-  Kumar Mangalam Institute </title>
+  <title>Kumar Mangalam Institute</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
     body{
@@ -15,8 +14,23 @@
     header{
       background:#0b3c5d;
       color:white;
-      padding:20px;
-      text-align:center;
+      padding:15px 20px;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      gap:15px;
+      flex-wrap:wrap;
+    }
+    header img{
+      height:70px;
+    }
+    header h1{
+      margin:0;
+      font-size:26px;
+    }
+    header p{
+      margin:0;
+      font-size:14px;
     }
     nav{
       background:#1d2731;
@@ -63,14 +77,16 @@
 </head>
 <body>
 
+<!-- Logo + Header -->
 <header>
-  <h1>कुमार मंगलम संस्थान            
-    KUMAR MANGALAM INSTITUTE                                                                                                                   
-    
-    
-  <p>Foundation for Civil Services & Academic Excellence</p>
+  <img src="logo.png" alt="Kumar Mangalam Institute Logo">
+  <div>
+    <h1>KUMAR MANGALAM INSTITUTE</h1>
+    <p>Foundation for Civil Services & Academic Excellence</p>
+  </div>
 </header>
 
+<!-- Navigation -->
 <nav>
   <a href="#home">Home</a>
   <a href="#about">About</a>
@@ -79,6 +95,7 @@
   <a href="#contact">Contact</a>
 </nav>
 
+<!-- Sections -->
 <section id="home">
   <h2>Welcome</h2>
   <p>
@@ -136,7 +153,7 @@
 </section>
 
 <footer>
-  <p>© 2026 Kumar Mangalam Institute| All Rights Reserved</p>
+  <p>© 2026 Kumar Mangalam Institute | All Rights Reserved</p>
 </footer>
 
 </body>
